@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Riya Pokhriyal - Full Stack Developer portfolio with projects, skills, and contact."
+    />
+    <meta name="theme-color" content="#0b0f1a" />
+
+    <meta property="og:title" content="Riya Pokhriyal | Full Stack Developer" />
+    <meta
+      property="og:description"
+      content="Projects, skills, and experience. Let's build something great."
+    />
+    <meta property="og:type" content="website" />
+
+    <title>Riya Pokhriyal | Full Stack Developer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-shape shape-one"></div>
+    <div class="bg-shape shape-two"></div>
+    <div class="bg-shape shape-three"></div>
+
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#home">RP</a>
+        <nav class="nav">
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="theme-toggle" type="button" aria-label="Toggle theme">
+          <span class="toggle-icon" aria-hidden="true">D</span>
+          <span class="toggle-text">Night</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero container reveal">
+        <div class="hero-copy">
+          <p class="hero-greeting">Hi, I am</p>
+          <h1 class="hero-name">Riya Pokhriyal</h1>
+          <p class="hero-title">Full Stack Developer & AI Enthusiast</p>
+          <p class="hero-desc">
+            I design and build web experiences that are fast, accessible, and
+            delightful. I'm based in Delhi and open to internship and full-time
+            roles.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#contact">Contact Me</a>
+            <a class="btn ghost" href="#projects">View Projects</a>
+          </div>
+          <div class="socials">
+            <a class="icon-btn" href="mailto:you@example.com" aria-label="Email">
+              <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+                <path
+                  d="M3 5h18a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2zm0 2v.5l9 5.5 9-5.5V7H3zm18 10V9.2l-9 5.5-9-5.5V17h18z"
+                />
+              </svg>
+            </a>
+            <a
+              class="icon-btn"
+              href="https://www.linkedin.com/in/riya-p-69294b324"
+              aria-label="LinkedIn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+                <path
+                  d="M4.98 3.5A2.5 2.5 0 0 0 2.5 6v12A2.5 2.5 0 0 0 5 20.5h14A2.5 2.5 0 0 0 21.5 18V6A2.5 2.5 0 0 0 19 3.5H5zM8.3 9.75h2.4v7H8.3v-7zm1.2-1.7a1.4 1.4 0 1 1 0-2.8 1.4 1.4 0 0 1 0 2.8zM14 9.75c1.5 0 2.6 1 2.6 2.9v4.1h-2.4v-3.6c0-.9-.3-1.5-1-1.5-.6 0-.9.4-1 .8-.1.2-.1.5-.1.8v3.5h-2.4v-7h2.4v1c.3-.5 1-1 2-.9z"
+                />
+              </svg>
+            </a>
+            <a
+              class="icon-btn"
+              href="https://github.com/InnovateWithRiya/FUTURE_FS_02"
+              aria-label="GitHub"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+                <path
+                  d="M12 2.5a9.5 9.5 0 0 0-3 18.5c.5.1.7-.2.7-.5v-2c-2.8.6-3.4-1.4-3.4-1.4-.4-1-.9-1.3-.9-1.3-.8-.6.1-.6.1-.6.9.1 1.3 1 1.3 1 .8 1.3 2.1.9 2.6.7.1-.6.3-1 .6-1.3-2.2-.2-4.6-1.1-4.6-5A3.9 3.9 0 0 1 7 7.5c-.1-.2-.4-1.1.1-2.2 0 0 .9-.3 2.3.9a7.8 7.8 0 0 1 4.2 0c1.4-1.2 2.3-.9 2.3-.9.5 1.1.2 2 .1 2.2a3.9 3.9 0 0 1 1 2.7c0 3.9-2.4 4.8-4.6 5 .3.3.6.8.6 1.6v2.4c0 .3.2.6.7.5A9.5 9.5 0 0 0 12 2.5z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img
+            class="hero-illustration"
+            src="assets/aboutpic.png"
+            alt="Developer illustration"
+          />
+        </div>
+      </section>
+
+      <section id="skills" class="section container reveal">
+        <div class="section-header">
+          <h2>Skills & Tech Stack</h2>
+          <p>Tools I use to ship reliable web applications.</p>
+        </div>
+        <div class="grid skills">
+          <div class="skill-card">
+            <div class="skill-icon">FE</div>
+            <h3>Frontend</h3>
+            <ul>
+              <li>HTML, CSS, JavaScript</li>
+              <li>React, Next.js</li>
+              <li>Responsive UI, Accessibility</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">BE</div>
+            <h3>Backend</h3>
+            <ul>
+              <li>Node.js, PHP</li>
+              <li>Performance & security</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">AI</div>
+            <h3>Data & AI</h3>
+            <ul>
+              <li>MySQL, MongoDB</li>
+              <li>Python, ML basics</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section container reveal">
+        <div class="section-header">
+          <h2>Projects</h2>
+          <p>Real work that shows how I think and build.</p>
+        </div>
+        <div class="project-stack">
+          <article class="project-row">
+            <div class="project-media">
+              <img
+                src="assets/project.jpg"
+                alt="Hospital Management System"
+              />
+            </div>
+            <div class="project-info">
+              <h3>Hospital Management System</h3>
+              <ul>
+                <li>Developed a web-based hospital management website.</li>
+                <li>
+                  Implemented patient registration and appointment scheduling.
+                </li>
+                <li>Used file handling for persistent data storage.</li>
+              </ul>
+              <div class="card-tags">
+                <span>HTML</span>
+                <span>PHP</span>
+                <span>SQL</span>
+                <span>MongoDB</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-row reverse">
+            <div class="project-media">
+              <img
+                src="assets/project-2.jpg"
+                alt="Smart Shopping Assistant System"
+              />
+            </div>
+            <div class="project-info">
+              <h3>Smart Shopping Assistant System</h3>
+              <ul>
+                <li>Developed a smart shopping assistant using Python.</li>
+                <li>
+                  Implemented product recommendations, price comparison, and a
+                  chatbot.
+                </li>
+                <li>Applied Python and Tkinter GUI library.</li>
+              </ul>
+              <div class="card-tags">
+                <span>Python</span>
+                <span>Recommendation</span>
+                <span>Chatbot</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-row">
+            <div class="project-media">
+              <img
+                src="assets/project-3.png"
+                alt="Nearest Doctor System"
+              />
+            </div>
+            <div class="project-info">
+              <h3>Nearest Doctor System</h3>
+              <ul>
+                <li>
+                  Built an intelligent nearest doctor application using Python
+                  and AI/ML.
+                </li>
+                <li>
+                  Integrated chatbot, appointment booking via chat, and map
+                  integration.
+                </li>
+              </ul>
+              <div class="card-tags">
+                <span>AI/ML</span>
+                <span>Chatbot</span>
+                <span>Google Maps</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="section container reveal">
+        <div class="section-header">
+          <h2>About Me - Full-Stack Developer & AI Enthusiast</h2>
+          <p>Developer story, values, and what I'm learning next.</p>
+        </div>
+        <div class="grid about">
+          <div>
+            <p>
+              I'm a full-stack developer and AI enthusiast who enjoys building
+              practical, user-friendly products. I focus on clean architecture,
+              thoughtful UX, and turning complex ideas into reliable web
+              applications.
+            </p>
+          </div>
+          <div class="about-card">
+            <h3> More About Me</h3>
+            <p></p>
+            <div class="hero-actions">
+              <a
+                class="btn ghost"
+                href="assets/Resume%20(1).pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                >View Resume</a
+              >
+              <a
+                class="btn ghost"
+                href="https://www.linkedin.com/in/riya-p-69294b324"
+                target="_blank"
+                rel="noopener noreferrer"
+                >LinkedIn</a
+              >
+              <a
+                class="btn ghost"
+                href="https://github.com/InnovateWithRiya"
+                target="_blank"
+                rel="noopener noreferrer"
+                >GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section container reveal connect-section">
+        <div class="section-header">
+          <h2>Let's Connect</h2>
+          <p>Tell me about your role, project, or idea. I respond quickly.</p>
+        </div>
+        <div class="grid contact">
+          <div class="contact-card highlight">
+            <h3>Contact Details</h3>
+            <div class="contact-item">
+              <span class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img">
+                  <path
+                    d="M3 5h18a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2zm0 2v.5l9 5.5 9-5.5V7H3zm18 10V9.2l-9 5.5-9-5.5V17h18z"
+                  />
+                </svg>
+              </span>
+              <a href="mailto:riiyaa.204@gmail.com">you@example.com</a>
+            </div>
+            <div class="contact-item">
+              <span class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img">
+                  <path
+                    d="M4.98 3.5A2.5 2.5 0 0 0 2.5 6v12A2.5 2.5 0 0 0 5 20.5h14A2.5 2.5 0 0 0 21.5 18V6A2.5 2.5 0 0 0 19 3.5H5zM8.3 9.75h2.4v7H8.3v-7zm1.2-1.7a1.4 1.4 0 1 1 0-2.8 1.4 1.4 0 0 1 0 2.8zM14 9.75c1.5 0 2.6 1 2.6 2.9v4.1h-2.4v-3.6c0-.9-.3-1.5-1-1.5-.6 0-.9.4-1 .8-.1.2-.1.5-.1.8v3.5h-2.4v-7h2.4v1c.3-.5 1-1 2-.9z"
+                  />
+                </svg>
+              </span>
+              <a
+                href="https://www.linkedin.com/in/riya-p-69294b324"
+                target="_blank"
+                rel="noopener noreferrer"
+                >linkedin.com/in/riya-p-69294b324</a
+              >
+            </div>
+            <div class="contact-item">
+              <span class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img">
+                  <path
+                    d="M12 2.5a9.5 9.5 0 0 0-3 18.5c.5.1.7-.2.7-.5v-2c-2.8.6-3.4-1.4-3.4-1.4-.4-1-.9-1.3-.9-1.3-.8-.6.1-.6.1-.6.9.1 1.3 1 1.3 1 .8 1.3 2.1.9 2.6.7.1-.6.3-1 .6-1.3-2.2-.2-4.6-1.1-4.6-5A3.9 3.9 0 0 1 7 7.5c-.1-.2-.4-1.1.1-2.2 0 0 .9-.3 2.3.9a7.8 7.8 0 0 1 4.2 0c1.4-1.2 2.3-.9 2.3-.9.5 1.1.2 2 .1 2.2a3.9 3.9 0 0 1 1 2.7c0 3.9-2.4 4.8-4.6 5 .3.3.6.8.6 1.6v2.4c0 .3.2.6.7.5A9.5 9.5 0 0 0 12 2.5z"
+                  />
+                </svg>
+              </span>
+              <a
+                href="https://github.com/InnovateWithRiya"
+                target="_blank"
+                rel="noopener noreferrer"
+                >github.com/InnovateWithRiya/FUTURE_FS_02</a
+              >
+            </div>
+            <div class="availability">
+              <span class="dot"></span>
+              Available for new opportunities
+            </div>
+          </div>
+          <form
+            class="contact-form"
+            method="post"
+            action="mailto:you@example.com"
+            enctype="text/plain"
+          >
+            <label>
+              Full Name
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              Email
+              <input
+                type="email"
+                name="email"
+                placeholder="you@email.com"
+                required
+              />
+            </label>
+            <label>
+              Message
+              <textarea
+                name="message"
+                rows="4"
+                placeholder="Tell me about your project..."
+                required
+              ></textarea>
+            </label>
+            <button class="btn primary contact-submit" type="submit">
+              Send Message
+            </button>
+            <p class="form-hint">
+              This uses your default email client. For automated notifications,
+              connect a backend or form service.
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>Copyright 2026 Riya Pokhriyal. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#home">Back to top</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
